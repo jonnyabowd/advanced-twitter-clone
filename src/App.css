@@ -1,24 +1,41 @@
-.App {
+#root {
+  display: grid;
+  grid-template-rows: 100vh;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+
+.page-container {
+  display: grid;
+  grid-template-rows: 50px auto;
+}
+
+.top-nav {
+  display: grid;
+  align-self: stretch;
+}
+
+.body-components {
+  /* border: 5px dotted darkgray; */
+  display: grid;
+  grid-template-columns: 300px auto 25%;
+  align-self: stretch;
+}
+
+button {
+  border-radius: 100px;
+  border: none;
+  box-shadow: none;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 6px 16px;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-color: #48aae6;
   color: white;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+a {
+  text-decoration: none;
+  color: #48aae6;
 }

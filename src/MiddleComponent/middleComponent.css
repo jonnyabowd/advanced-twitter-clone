@@ -1,0 +1,17 @@
+.middle {
+    display: grid;
+    grid-template-rows: 120px auto;
+}
+
+.middle-top {
+    /* border: 5px solid purple; */
+    /* background-color: hsl(300, 100%, 90%); */
+    background-color: #e6ecf0;
+    padding: 5px 5px 5px 10px;
+}
+
+.middle-bottom {
+    /* border: 5px solid blue; */
+    background-color: #e6ecf0;
+    padding: 5px 5px 0;
+}

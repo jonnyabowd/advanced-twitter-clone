@@ -1,0 +1,16 @@
+.right {
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+
+.right-top {
+    /* border: 5px solid yellow; */
+    background-color: #e6ecf0;
+    padding: 5px 20px 5px 5px;
+}
+
+.right-bottom {
+    /* border: 5px solid pink; */
+    background-color: #e6ecf0;
+    padding: 5px 20px 0px 5px;
+}

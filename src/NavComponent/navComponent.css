@@ -1,0 +1,38 @@
+.nav {
+    border-bottom: 2px solid #66757f;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.nav-actions {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #66757f;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.nav-actions li {
+    margin-right: 20px;
+}
+
+.search-user {
+    max-width: 500px;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    justify-items: end;
+    align-items: center;
+}
+
+
+#birdo {
+    color: #48AAE6;
+    font-size: 22px;
+    justify-self: center;
+}

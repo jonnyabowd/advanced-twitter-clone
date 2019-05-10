@@ -1,0 +1,69 @@
+.left {
+    display: grid;
+    grid-template-rows: min-content auto;
+}
+
+.left-top {
+    background-color: #e6ecf0;
+    align-self: stretch;
+    font-size: 14px;
+}
+
+.left-bottom {
+    background-color: #e6ecf0;
+    align-self: stretch;
+    padding: 0 5px 0 20px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+}
+
+.blue-bkgd {
+    background-color: #48AAE6;
+    width: 100%;
+    height: 120px;
+}
+
+.user-info {
+    padding: 20px;
+}
+
+.bootyface {
+    border-radius: 50%;
+    border: 8px solid white;
+    width: 160px;
+    margin-bottom: 10px;
+    margin-top: -80px;
+}
+
+h1 {
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0 0 2px 0;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+}
+
+.profile-item {
+    margin-bottom: 10px;
+}
+
+i {
+    padding-right: 5px;
+}
+
+.fas.fa-poop, .fas.fa-poo, .fas.fa-images {
+    color: #48AAE6;
+}
+
+button {
+    width: 100%;
+}
